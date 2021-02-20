@@ -98,3 +98,27 @@ article {
 以下に自分なりのCSSを書いて読みやすくする
 ////////////////////////////////////////
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  color: #6594e0;
+  border-bottom: dashed 2px #6594e0;
+  color: #6594e0;
+  font-size : 32px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #7db4e6;
+  margin: 12px auto;
+}
