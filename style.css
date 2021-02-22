@@ -102,6 +102,7 @@ article {
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  background: #505168;
 }
 
 h1 {
@@ -120,4 +121,71 @@ h2 {
   background: transparent;
   border-left: solid 5px #DCC48E;
   margin: 12px auto;
+}
+
+article {
+  background: #fff;
+  padding: 12px;
+  border-radius: 9px;
+}
+
+.profile {
+  text-align: center;
+  margin: 12px auto;
+}
+
+.profile img {
+  border-radius: 10px;
+  width: 50%;
+}
+
+ul, ol {
+  border: solid 2px #DCC48E;
+  border-radius: 9px;
+  padding: 6px;
+  margin: 6px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ul li, ol li {
+  padding: 0.5em 0.5em;
+}
+
+ol li:before {
+  counter-increment: item;
+  content: counter(item)'.';
+  padding-right: 0.4em;
+  color: #DCC48E;
+  font-weight: bold;
+}
+
+i.check {
+  color: #DCC48E;
+  padding-right: 0.4em;
+}
+
+.underline {
+  background:linear-gradient(transparent 60%, #EAEFD3 0%);
+  font-weight: bold;
+}
+
+blockquote {
+  position: relative;
+  padding: 1.2em;
+  margin: 6px;
+  background: #DFDFDF;
+  font-style: italic;
+  border-radius: 9px;
+}
+
+blockquote:before{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '“';
+  font-size: 3em;
+  color: #FFF;
 }
