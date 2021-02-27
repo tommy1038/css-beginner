@@ -194,7 +194,7 @@ form {
   padding: 1.2em;
 }
 
-.form-items {
+.form-items__item {
   width: 100%;
 }
 
@@ -219,7 +219,8 @@ input[type="text"], textarea {
 }
 
 textarea {
-  height: 4.2em;
+  height: 7.0em;
+  font-family: inherit;
 }
 
 .form-action{
