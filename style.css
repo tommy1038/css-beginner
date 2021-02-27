@@ -103,6 +103,7 @@ article {
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background: #F6F9F9;
+  line-height: 1.8;
 }
 
 h1 {
@@ -129,6 +130,10 @@ article {
   border-radius: 9px;
 }
 
+p {
+  margin-bottom: 0.5em;
+}
+
 .profile {
   text-align: center;
   margin: 12px auto;
@@ -143,7 +148,8 @@ ul, ol {
   border: solid 2px #DCC48E;
   border-radius: 9px;
   padding: 6px;
-  margin: 6px;
+  margin: 6px 6px 12px 6px;
+  line-height: 1.2;
 }
 
 ol {
@@ -181,9 +187,13 @@ blockquote {
   border-radius: 9px;
 }
 
+blockquote p {
+  margin-bottom: 0;
+}
+
 blockquote:before{
   position: absolute;
-  top: 0px;
+  top: -0.3em;
   left: 0px;
   content: '“';
   font-size: 3em;
